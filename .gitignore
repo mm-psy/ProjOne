@@ -14,5 +14,6 @@ obj/
 Thumbs.db
 # Logs
 *.log
+Logs/
 # Visual Studio Code
 .vscode/
