@@ -36,9 +36,6 @@ jobs:
           comment-summary-in-pr: always
         #  fail-on-severity: moderate
           allow-licenses: |
-            Apache-1.0,
-            Apache-1.1,
-            Apache-2.0,
             BSL-1.0,
             BSD-1-Clause,
             BSD-2-Clause,
