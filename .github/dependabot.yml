@@ -11,23 +11,11 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 3
-    groups:
-      nuget-minor-and-patch:
-        update-types:
-          - "minor"
-          - "patch"
 
   - package-ecosystem: "docker"
     directory: "/HelloWorldApi"
     schedule:
-      interval: "weekly"
-    cooldown:
-      default-days: 3
-    groups:
-      docker-minor-and-patch:
-        update-types:
-          - "minor"
-          - "patch"
+      interval: "daily"
 
   - package-ecosystem: "docker-compose"
     directory: "/"
@@ -35,11 +23,6 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 3
-    groups:
-      docker-compose-minor-and-patch:
-        update-types:
-          - "minor"
-          - "patch"
 
   - package-ecosystem: "github-actions"
     directory: "/"
@@ -47,8 +30,3 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 3
-    groups:
-      github-actions-minor-and-patch:
-        update-types:
-          - "minor"
-          - "patch"
